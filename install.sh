@@ -1,5 +1,5 @@
 # Install Initial Software
-sudo apt install nodejs npm zsh git
+sudo apt install nodejs npm zsh git nginx
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Edit Config Files
