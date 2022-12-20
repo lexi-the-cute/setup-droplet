@@ -21,8 +21,8 @@ sudo mysql -u root
 # CREATE USER 'replacemeonexecution'@'localhost' IDENTIFIED BY 'replacemeonexecution';
 # GRANT ALL PRIVILEGES ON *.* TO 'replacemeonexecution'@'localhost' WITH GRANT OPTION;
 
-sed -i '1i#MySQL Server Info\nexport DB_USERNAME=art\nexport DB_PASSWORD=replacemeduringexecution\nexport DB_SERVER=localhost\nexport DB_NAME=art\n' ~/.zshrc
+sed -i '1i#MySQL Server Info\nexport DB_USERNAME=art\nexport DB_PASSWORD=replacemeduringexecution\nexport DB_HOST=localhost\nexport DB_NAME=art\n' ~/.zshrc
 export DB_USERNAME=art
 export DB_PASSWORD=replacemeduringexecution
-export DB_SERVER=localhost
+export DB_HOST=localhost
 export DB_NAME=art
